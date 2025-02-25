@@ -19,3 +19,16 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+# Create a new React app
+npx create-react-app my-app
+
+# Navigate to the app directory
+cd my-app
+
+# Initialize a Git repository and push to GitHub
+git init
+git add
+git commit -m "Initial commit"
+git remote add origin <your-github-repo-url>
+git push -u origin main
